@@ -35,10 +35,10 @@ function writePassword() {
 
 function generatePassword() {
   var passOptions = '';
-  passwordLength;
+  console.log(passwordLength);
   if(confUpperCase,confSpecialChar) {
   for (i=0; i < passwordLength; i++ ) {
-  passOptions = Math.floor(Math.random()* passwordLength);
+  passOptions = Math.floor(Math.random() * passwordLength);
   passOptions += upperCaseChar.concat(specialCharacters)
   } 
 }
