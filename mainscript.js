@@ -34,7 +34,7 @@ function generatePassword() {
     else {
      return; 
   }
-// mutliple if statements should concatenate the specificied array to the empty array of passOptions & continue to do so based on user selection
+// mutliple if statements concatenate the specificied array to the empty array of passOptions & continue to do so based on user selection
 if (confUpperCase) {
   passOptions = passOptions.concat(upperCaseChar);
 }
@@ -52,7 +52,7 @@ if (confSpecialChar) {
 }
 
 console.log(passOptions);
-//for loop to that takes passOption array (which should include all user selected inputs) and uses the password length to randomly generate a password into the passResults array
+//for loop to that takes passOption array (which should include all user selected inputs) and uses the passwordOptions array length to randomly generate a password into the passResults array based on the selected characters for password length
 for (i=0; i < passwordLength; i++) {
 passResults += passOptions[Math.floor(Math.random() * passOptions.length)]
  }
