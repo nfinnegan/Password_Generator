@@ -41,4 +41,5 @@ Link to Deployed Application: https://nfinnegan.github.io/Password_Generator/
 
 
 ## Preview
-<iframe src="https://drive.google.com/file/d/1RGK2jLbvwRH4FUVy9JOrCBpdG2iWWvDF/preview" width="600" height="400"></iframe>
+
+![Password_Generator_Preview](Assets/password_generator_prev.gif); 
